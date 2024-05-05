@@ -1,0 +1,13 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+}
+.sidebar{
+    flex:2.3;
+}
+.feed{
+    flex:5.8;
+}
+.rightbar{
+    flex:3;
+}

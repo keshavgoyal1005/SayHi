@@ -1,0 +1,34 @@
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+.rightbarFriend:hover{
+    background-color: rgb(245,243,243);
+}
+.rightbarImgContainer{
+    margin-right: 10px;
+}
+.OnlineImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+.Username{
+    font-weight: 500;
+    padding: 10px;
+}
+.onlineFriends{
+    width: 12px;
+    height: 12px; 
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    border: 2px solid white; 
+    background-color: limegreen;
+    
+}
